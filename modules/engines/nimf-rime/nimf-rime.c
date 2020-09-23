@@ -3,6 +3,7 @@
  * nimf-rime.c
  * This file is part of Nimf.
  *
+ * Copyright (C) 2019-2020 HamoniKR <pkg@hamonikr.org>
  * Copyright (C) 2016-2019 Hodong Kim <cogniti@gmail.com>
  *
  * Nimf is free software: you can redistribute it and/or modify it
@@ -432,8 +433,8 @@ nimf_rime_init (NimfRime *rime)
   rime->session_id = RimeCreateSession();
   RimeSetOption (rime->session_id, "simplification", rime->is_simplified);
 
-  g_signal_connect (rime->settings, "changed::simplification",
-                    G_CALLBACK (on_changed_simplification), rime);
+  g_signal_connect_data (rime->settings, "changed::simplification",
+          G_CALLBACK (on_changed_simplification), rime, NULL, G_CONNECT_AFTER);
 }
 
 static void

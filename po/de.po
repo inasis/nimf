@@ -168,7 +168,6 @@ msgstr ""
 
 #: ../libnimf/org.nimf.gschema.xml.h:2
 #: ../modules/clients/gtk/org.nimf.clients.gtk.gschema.xml.h:2
-#: ../modules/clients/qt4/org.nimf.clients.qt4.gschema.xml.h:2
 #: ../modules/clients/qt5/org.nimf.clients.qt5.gschema.xml.h:2
 #: ../modules/engines/nimf-anthy/org.nimf.engines.nimf-anthy.gschema.xml.h:2
 #: ../modules/engines/nimf-libhangul/org.nimf.engines.nimf-libhangul.gschema.xml.h:2
@@ -186,7 +185,6 @@ msgstr "nimf-settings Schema name"
 
 #: ../libnimf/org.nimf.gschema.xml.h:3
 #: ../modules/clients/gtk/org.nimf.clients.gtk.gschema.xml.h:3
-#: ../modules/clients/qt4/org.nimf.clients.qt4.gschema.xml.h:3
 #: ../modules/clients/qt5/org.nimf.clients.qt5.gschema.xml.h:3
 #: ../modules/engines/nimf-anthy/org.nimf.engines.nimf-anthy.gschema.xml.h:3
 #: ../modules/engines/nimf-libhangul/org.nimf.engines.nimf-libhangul.gschema.xml.h:3
@@ -275,14 +273,9 @@ msgstr ""
 "verhindert Fehler in vielen Anwendungen"
 
 #: ../modules/clients/gtk/org.nimf.clients.gtk.gschema.xml.h:6
-#: ../modules/clients/qt4/org.nimf.clients.qt4.gschema.xml.h:4
 #: ../modules/clients/qt5/org.nimf.clients.qt5.gschema.xml.h:4
 msgid "Reset when clicking the mouse button"
 msgstr "Zurücksetzen bei Mausklick"
-
-#: ../modules/clients/qt4/org.nimf.clients.qt4.gschema.xml.h:1
-msgid "'Qt4'"
-msgstr ""
 
 #: ../modules/clients/qt5/org.nimf.clients.qt5.gschema.xml.h:1
 msgid "'Qt5'"

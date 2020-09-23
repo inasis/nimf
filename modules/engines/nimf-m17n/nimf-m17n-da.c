@@ -3,6 +3,7 @@
  * nimf-m17n-da.c
  * This file is part of Nimf.
  *
+ * Copyright (C) 2019-2020 HamoniKR <pkg@hamonikr.org>
  * Copyright (C) 2019 Hodong Kim <cogniti@gmail.com>
  *
  * Nimf is free software: you can redistribute it and/or modify it
@@ -58,8 +59,8 @@ nimf_m17n_da_init (NimfM17nDa *da)
 
   nimf_m17n_open_im (m17n);
 
-  g_signal_connect (m17n->settings, "changed::get-method-infos",
-                    G_CALLBACK (on_changed_method), m17n);
+  g_signal_connect_data (m17n->settings, "changed::get-method-infos",
+                  G_CALLBACK (on_changed_method), m17n, NULL, G_CONNECT_AFTER);
 }
 
 static void

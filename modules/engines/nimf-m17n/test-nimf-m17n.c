@@ -3,6 +3,7 @@
  * test-nimf-m17n.c
  * This file is part of Nimf.
  *
+ * Copyright (C) 2019-2020 HamoniKR <pkg@hamonikr.org>
  * Copyright (C) 2019 Hodong Kim <cogniti@gmail.com>
  *
  * Nimf is free software: you can redistribute it and/or modify it

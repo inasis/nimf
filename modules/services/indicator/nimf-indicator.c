@@ -3,6 +3,7 @@
  * nimf-indicator.c
  * This file is part of Nimf.
  *
+ * Copyright (C) 2019-2020 HamoniKR <pkg@hamonikr.org>
  * Copyright (C) 2015-2019 Hodong Kim <cogniti@gmail.com>
  *
  * Nimf is free software: you can redistribute it and/or modify it
@@ -119,14 +120,14 @@ on_menu_about (GSimpleAction *action,
       "artists",            artists,
       "authors",            authors,
       "comments",           _("Nimf is an input method framework"),
-      "copyright",          _("Copyright (c) 2015-2019 Hodong Kim"),
+      "copyright",          _("Copyright (c) 2019-2020 HamoniKR"),
       "documenters",        documenters,
       "license-type",       GTK_LICENSE_LGPL_3_0,
       "logo-icon-name",     "nimf-logo",
       "program-name",       _("Nimf"),
       "translator-credits", _("Hodong Kim, Max Neupert"),
       "version",            VERSION,
-      "website",            "https://nimf-i18n.gitlab.io",
+      "website",            "https://github.com/hamonikr/nimf",
       "website-label",      _("Website"),
       NULL);
 

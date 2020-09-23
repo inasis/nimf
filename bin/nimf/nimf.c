@@ -33,13 +33,14 @@
 #include <syslog.h>
 #include <errno.h>
 #include <glib-unix.h>
+#include "nimf-utils-private.h"
 
 static gchar *
 nimf_get_nimf_path ()
 {
   g_debug (G_STRLOC ": %s", G_STRFUNC);
 
-  return g_strconcat (g_get_user_runtime_dir (), "/nimf", NULL);
+  return g_strdup_printf ("/run/user/%u/nimf", nimf_get_loginuid ());
 }
 
 static gboolean
@@ -66,7 +67,7 @@ nimf_get_lock_path ()
 {
   g_debug (G_STRLOC ": %s", G_STRFUNC);
 
-  return g_strconcat (g_get_user_runtime_dir (), "/nimf/lock.pid", NULL);
+  return g_strdup_printf ("/run/user/%u/nimf/lock.pid", nimf_get_loginuid ());
 }
 
 static int
