@@ -27,5 +27,5 @@ sudo apt install libgtk-3-dev qtbase5-private-dev libappindicator3-dev libhangul
 
 ```
 dpkg-buildpackage -T clean
-dpkg-buildpackage
+dpkg-buildpackage -us -uc
 ```

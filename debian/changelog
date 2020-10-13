@@ -13,7 +13,7 @@ nimf (2020.04.28-0~20200428~hamonikr30.1) focal; urgency=low
     Don't use g_get_user_runtime_dir()
   * Fix an error on compiling im-nimf.c for gtk2
 
--- HamoniKR Team <pkg@hamonikr.org>  Tue, 13 Oct 2020 15:07:56 +0900
+-- HamoniKR <pkg@hamonikr.org>  Tue, 13 Oct 2020 15:07:56 +0900
 
 nimf (2019.08.14-0~201908141206~hamonikr14.1) me; urgency=low
 
